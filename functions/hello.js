@@ -1,6 +1,6 @@
 exports.handler = async event => {
+    console.log(event.postData);
     let dataContents = JSON.parse(event.postData.contents);
-    console.log(dataContents);
     let type = dataContents.type;
 
     // do the work
