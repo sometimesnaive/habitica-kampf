@@ -1,0 +1,191 @@
+//a habit goes up (positive)
+{
+type: 'scored',
+  direction: 'up',
+  delta: 1,
+  task: {
+    challenge: {},
+    group: {
+      approval: [Object],
+      assignedUsers: [],
+      sharedCompletion: 'singleCompletion'
+    },
+    up: true,
+    down: false,
+    counterUp: 1,
+    counterDown: 0,
+    frequency: 'daily',
+    history: [ [Object] ],
+    type: 'habit',
+    notes: '',
+    tags: [],
+    value: 1,
+    priority: 1,
+    attribute: 'str',
+    byHabitica: false,
+    reminders: [],
+    createdAt: '2020-01-10T20:17:39.730Z',
+    updatedAt: '2020-01-10T20:17:39.730Z',
+    _id: '55b132b7-1ae5-452f-a6ca-1e97ce18abc2',
+    text: '10 min cardio >> + 10 minutes cardio',
+    userId: '78d05d1c-8708-473b-944d-aa146cad1840',
+    id: '55b132b7-1ae5-452f-a6ca-1e97ce18abc2'
+  },
+  user: {
+    _tmp: { quest: [Object] },
+    stats: {
+      buffs: [Object],
+      training: [Object],
+      hp: 19.300000000000004,
+      mp: 36,
+      exp: 91,
+      gp: 81.54954264989603,
+      lvl: 6,
+      class: 'warrior',
+      points: 6,
+      str: 0,
+      con: 0,
+      int: 0,
+      per: 0,
+      toNextLevel: 210,
+      maxHealth: 50,
+      maxMP: 36
+    },
+    _id: '78d05d1c-8708-473b-944d-aa146cad1840'
+  },
+  webhookType: 'taskActivity'
+}
+
+
+// a daily goes up
+{
+  type: 'scored',
+  direction: 'up',
+  delta: 0.9999999890939203,
+  task: {
+    repeat: { m: true, t: true, w: true, th: true, f: true, s: true, su: true },
+    challenge: {},
+    group: {
+      approval: [Object],
+      assignedUsers: [],
+      sharedCompletion: 'singleCompletion'
+    },
+    frequency: 'weekly',
+    everyX: 1,
+    streak: 1,
+    nextDue: [
+      '2021-01-15T06:00:00.000Z',
+      '2021-01-16T06:00:00.000Z',
+      '2021-01-18T06:00:00.000Z',
+      '2021-01-19T06:00:00.000Z',
+      '2021-01-20T06:00:00.000Z',
+      '2021-01-21T06:00:00.000Z'
+    ],
+    yesterDaily: true,
+    history: [ [Object] ],
+    completed: true,
+    collapseChecklist: false,
+    type: 'daily',
+    notes: '',
+    tags: [],
+    value: 1.000000414687937,
+    priority: 1,
+    attribute: 'str',
+    byHabitica: false,
+    startDate: '2021-01-14T06:00:00.000Z',
+    daysOfMonth: [],
+    weeksOfMonth: [],
+    checklist: [],
+    reminders: [],
+    createdAt: '2021-01-14T20:34:14.147Z',
+    updatedAt: '2021-01-15T01:14:54.525Z',
+    _id: '8a82c28d-b6be-4650-b4a2-1f8a60152f48',
+    text: 'Not using any time wasting website during a 2-hour period',
+    userId: '78d05d1c-8708-473b-944d-aa146cad1840',
+    isDue: true,
+    id: '8a82c28d-b6be-4650-b4a2-1f8a60152f48'
+  },
+  user: {
+    _tmp: { quest: [Object] },
+    stats: {
+      buffs: [Object],
+      training: [Object],
+      hp: 19.300000000000004,
+      mp: 36,
+      exp: 91,
+      gp: 81.54954264989603,
+      lvl: 6,
+      class: 'warrior',
+      points: 6,
+      str: 0,
+      con: 0,
+      int: 0,
+      per: 0,
+      toNextLevel: 210,
+      maxHealth: 50,
+      maxMP: 36
+    },
+    _id: '78d05d1c-8708-473b-944d-aa146cad1840'
+  },
+  webhookType: 'taskActivity'
+}
+
+{
+  type: 'scored',
+  direction: 'up',
+  delta: 1.0821040277238705,
+  task: {
+    challenge: {
+      taskId: 'f978f73e-a923-4a63-a110-4a9623ac429a',
+      id: '5692be3b-89e4-4dc1-880e-01df92720f3f',
+      shortName: '🎯10 hours'
+    },
+    group: {
+      approval: [Object],
+      assignedUsers: [],
+      sharedCompletion: 'singleCompletion'
+    },
+    completed: true,
+    collapseChecklist: false,
+    type: 'todo',
+    notes: '',
+    tags: [ '5692be3b-89e4-4dc1-880e-01df92720f3f' ],
+    value: -1.9971402029437662,
+    priority: 1.5,
+    attribute: 'str',
+    byHabitica: false,
+    checklist: [],
+    reminders: [],
+    createdAt: '2021-01-11T16:53:55.492Z',
+    updatedAt: '2021-01-14T17:41:38.779Z',
+    _id: '3c3607c6-fd9e-4705-87cd-1c89c1b7403e',
+    text: '7. :dart: Complete 7th :tomato: or half hour of work on your project.',
+    date: '2021-01-17T17:39:00.000Z',
+    userId: '78d05d1c-8708-473b-944d-aa146cad1840',
+    dateCompleted: '2021-01-15T01:26:07.069Z',
+    id: '3c3607c6-fd9e-4705-87cd-1c89c1b7403e'
+  },
+  user: {
+    _tmp: { quest: [Object], drop: [Object] },
+    stats: {
+      buffs: [Object],
+      training: [Object],
+      hp: 19.300000000000004,
+      mp: 36,
+      exp: 101,
+      gp: 83.27008805397698,
+      lvl: 6,
+      class: 'warrior',
+      points: 6,
+      str: 0,
+      con: 0,
+      int: 0,
+      per: 0,
+      toNextLevel: 210,
+      maxHealth: 50,
+      maxMP: 36
+    },
+    _id: '78d05d1c-8708-473b-944d-aa146cad1840'
+  },
+  webhookType: 'taskActivity'
+}
