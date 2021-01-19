@@ -6,9 +6,8 @@ const HEADERS = {
 }
 
 
-exports.handler = async req => {
-    // console.log(req);
-    let data = JSON.parse(req.body);
+exports.handler = async (event, context) => {
+    let data = JSON.parse(event.body);
     console.log(data);
     let hook_type = data.webhookType;
     if (hook_type == 'taskActivity') {
