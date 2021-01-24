@@ -1,0 +1,16 @@
+[user]
+	name = sometimesnaive
+	email = doggg2@gmail.com
+[alias]
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+[merge]
+	tool = vimdiff
+	conflictstyle = diff3
+[mergetool]
+	prompt = false
+[core]
+	autocrlf = input
+[credential]
+	helper = cache --timeout=54000
+[remote "origin"]
+	url = git@github.com-doggg2:sometimesnaive/habitica-kampf.git
