@@ -20,17 +20,18 @@ exports.handler = async (event, context) => {
             }
         }
     }
-    else if (hook_type == 'questActivity') {
-        if (data.type == 'questInvited') {
-            acceptQuest().then(d => {console.log(d);});
-        }
-        else if (data.type == 'questStarted') {
-            console.log('quest started');
-        }
-        else if (data.type == 'questFinished') {
-            console.log('quest finished');
-        }
-    }
+    // the quest hook does not seem to work
+    // else if (hook_type == 'questActivity') {
+    //     if (data.type == 'questInvited') {
+    //         acceptQuest().then(d => {console.log(d);});
+    //     }
+    //     else if (data.type == 'questStarted') {
+    //         console.log('quest started');
+    //     }
+    //     else if (data.type == 'questFinished') {
+    //         console.log('quest finished');
+    //     }
+    // }
 
     // do the work
 
@@ -45,17 +46,6 @@ function dailyProcessor() {
     console.log('hello');
 }
 
-async function acceptQuest() {
-    const params = {
-        "method" : "POST",
-        "headers" : {...HEADERS, 'Content-Type': 'application/json'},
-        "muteHttpExceptions" : true,
-    }
-
-    const url = "https://habitica.com/api/v3/groups/party/quests/accept";
-    const response = await fetch(url, params);
-    return response.json();
-}
 
 async function addTodo() {
     const payload = {
